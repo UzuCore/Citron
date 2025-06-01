@@ -65,6 +65,7 @@ static FileSys::VirtualFile VfsDirectoryCreateFileWrapper(const FileSys::Virtual
     return dir->CreateFile(path);
 }
 
+#include <fmt/ranges.h>
 #include <fmt/ostream.h>
 #include <glad/glad.h>
 
