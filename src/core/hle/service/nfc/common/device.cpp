@@ -14,6 +14,7 @@
 #pragma warning(pop)
 #endif
 
+#include <fmt/format.h>
 #include <fmt/ranges.h>
 
 #include "common/fs/file.h"
